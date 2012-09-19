@@ -20,9 +20,13 @@
  * 方法：GET
  * json返回：
    * 样例：
-     {"is_login":false,"user_name":null,"is_alumni":false}}
+   <pre>
+   {"is_login":false,"user_name":null,"is_alumni":false}}
+   </pre>
    * 详细:
+   <pre>
      is_login是否登录
      user_name用户名
      is_alumni 是否校友(通过审核)
+   </pre>
     
