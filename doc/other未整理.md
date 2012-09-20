@@ -32,13 +32,13 @@
 
 ###校友会网站登录接口
 <pre>
-1.登录:/info/UserLogin/login
-2.提交审核:/info/info/registerVerify
-3.完善信息:/info/info/submitInfo
-4.修改密码:/info/UserLogin/profile
-5.登出:/info/authake/user/logout
-6.注册:/info/UserLogin/register
-7.忘记密码:/info/authake/user/lost_password
-8.邮箱验证码:/info/authake/user/verify
-9.注册后提示看邮件:/info/authake/user/verify1
+1.登录:/info/UserLogin/login      77
+2.提交审核:/info/info/registerVerify     80
+3.完善信息:/info/info/submitInfo         81
+4.修改密码:/info/UserLogin/profile   82
+5.登出:/info/authake/user/logout     83
+6.注册:/info/UserLogin/register          78
+7.忘记密码:/info/authake/user/lost_password   79
+8.邮箱验证码:/info/authake/user/verify    84
+9.注册后提示看邮件:/info/authake/user/verify1   85
 </pre>
