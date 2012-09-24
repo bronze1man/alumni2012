@@ -41,4 +41,5 @@
 7.忘记密码:/info/authake/user/lost_password   79
 8.邮箱验证码:/info/authake/user/verify    84
 9.注册后提示看邮件:/info/authake/user/verify1   85
+10.忘记密码后修改密码:/info/authake/user/pass   92
 </pre>
