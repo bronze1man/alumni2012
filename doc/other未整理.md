@@ -25,6 +25,7 @@
      存在:"exist"
      不存在:"noExist"
     </pre>
+
 ####邮箱是否存在(ajax)
   * url:/info/UserLogin/isEmailExist
   * 方法: POST
@@ -34,6 +35,7 @@
      存在:"exist"
      不存在:"noExist"
     </pre>
+
 ####状态信息（ajax）
  * url:/info/UserLogin/loginInfo
  * 方法：GET
