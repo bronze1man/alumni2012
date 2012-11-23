@@ -1,4 +1,5 @@
 ###校友会数据库内部简单key value数据库接口
+
 ####1.设置
   * url:/alumni/kvdb/setValue
   *  方法:POST或GET
@@ -15,6 +16,24 @@
     *  value的值
 
 ###校友会前台用户登录
+####用户名是否存在(ajax)
+  * url:/info/UserLogin/isUserNameExist
+  * 方法: POST
+  * json返回:(注意会失败)
+    * 样例:
+    <pre>
+     存在:"exist"
+     不存在:"noExist"
+    </pre>
+####邮箱是否存在(ajax)
+  * url:/info/UserLogin/isEmailExist
+  * 方法: POST
+  * json返回:(注意会失败)
+    * 样例:
+    <pre>
+     存在:"exist"
+     不存在:"noExist"
+    </pre>
 ####状态信息（ajax）
  * url:/info/UserLogin/loginInfo
  * 方法：GET
