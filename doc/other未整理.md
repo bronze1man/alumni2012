@@ -19,6 +19,8 @@
 ####用户名是否存在(ajax)
   * url:/info/UserLogin/isUserNameExist
   * 方法: POST
+  * 参数:
+     * username
   * json返回:(注意会失败)
     * 样例:
     <pre>
@@ -29,6 +31,8 @@
 ####邮箱是否存在(ajax)
   * url:/info/UserLogin/isEmailExist
   * 方法: POST
+  * 参数:
+     * email
   * json返回:(注意会失败)
     * 样例:
     <pre>
